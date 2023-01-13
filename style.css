@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    background-image: url(images/background.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainer{
+    background-color: white;
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    border: 3px solid palevioletred;
+           }
+.myimage{
+    width: 150px;
+    border: 2px solid palevioletred;
+    border-radius: 50%;
+    padding: 6px;
+}
+.name{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sc1,.sc2,.sc3{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    align-items: center;
+    gap: 20px;
+}
+.sc12,.sc22,.sc32{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
